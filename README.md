@@ -1,8 +1,8 @@
 # Squirrel
+
 Squirrel is an expression-oriented programming language inspired by Lisp.
 
-Check out the [language reference](docs/language-reference.md) to learn how it
-works.
+Check out the [language reference](docs/language-reference.md) to learn how it works.
 
 ## Sample
 
@@ -23,12 +23,12 @@ works.
 ```
 
 ## Prerequisites
-Install [.NET Core](https://www.microsoft.com/net/core) 1.1 or later in order
-to build and run the project.
+
+Install [.NET](https://dotnet.microsoft.com/) 10 or newer in order to build and run the project.
 
 ## Running
 
-```
+```shell
 cd src/app/
 dotnet restore
 
@@ -44,13 +44,14 @@ dotnet run ../../modules/game-of-life.sq
 
 ## Testing
 
-```
+```shell
 cd test/test-library/
 dotnet restore
 dotnet test
 ```
 
 ## Resources
+
 - [Language Reference](docs/language-reference.md)
 - [List of Builtin Functions](docs/builtin-functions.md)
 - [List of Standard Library Functions](docs/standard-library-functions.md)

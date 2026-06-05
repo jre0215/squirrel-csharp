@@ -44,7 +44,7 @@ namespace Tests
         [InlineData("slice", "(block (def {letters} {a b c}) (slice letters 0 (len letters)))", "{a b c}")]
         [InlineData("sub", "(sub 3 2)", "1")]
         [InlineData("unquote", "(unquote {add 1 2})", "3")]
-        public void TestBuiltinFunctions(string functionName, string input, string expected)
+        public void TestBuiltinFunctions(string _, string input, string expected)
         {
             var actual = Evaluate(input).ToString();
             Assert.Equal(expected, actual);
